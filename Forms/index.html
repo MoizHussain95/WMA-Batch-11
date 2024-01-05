@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center;"><u><b>USER REGISTER FORM</b></u></h1>
+    </header>
+    <main>
+        <form>
+            <p> First Name:<input type="text" maxlength="20"></p>
+            <p>Last Name:<input type="text" maxlength="20"></p>
+            <p>Password:<input type="password" maxlength="15"></p>
+
+            <p>Bio: <textarea></textarea></p>
+            <fieldset>
+                <legend>Gender:</legend>
+                <input type="radio" value="Male" name="Gender">Male<br>
+                <input type="radio" value="Female" name="Gender">Female<br>
+                <input type="radio" value="Other" name="Gender">Other
+            </fieldset>
+
+            <fieldset>
+                <legend>Interest:</legend>
+                <input type="checkbox" value="Music" name="Interest">Music<br>
+                <input type="checkbox" value="Sport" name="Interest">Sport<br>
+                <input type="checkbox" value="Reading" name="Interest">Reading
+            </fieldset>
+
+           <p> Country:<select>
+                <option value="United State">United State</option>
+                <option value="Canada">Canada</option>
+                <option value="Pakistan">England</option>
+                <option value="Palestine">Palestine</option>
+            </select>
+           <p>Prefered Color: <select multiple>
+                <option value="red">Red</option> 
+                <option value="Green">Green</option>
+                <option value="Yellow">Yellow</option>
+                <option value="pink">Pink</option>
+            </select>
+           </p>
+           <p>Profile Picture:<input type="file" required></p>
+           <p>Birthday:<input type="date" required></p>
+           <p>Email:<input type="email" required></p>
+           <p>Website:<input type="url"></p>
+           <p>Search:<input type="search"></p>
+           <input type="submit">
+        </form>
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>
